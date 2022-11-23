@@ -143,7 +143,7 @@ console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen')
     const kurr = kurrConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Nezuko.- Multi Device','Safari','1.0.0'],
+        browser: ['Arfan Devs.- Multi Device','Safari','1.0.0'],
         auth: state,
         version: getVersionWaweb() || [2, 2204, 13]
     })
