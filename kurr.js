@@ -475,7 +475,7 @@ ${isSurender ? '' : ``}`.trim()
 › ➥⬣ ${prefix}termint  (owner only)   
 › ➥⬣ ${prefix}listgc (untuk liat id gc)
 › ➥⬣ ${prefix}linkgc
-├───[ 🇮🇩𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗬𝗢𝗦𝗡𝗘𝗦𝗜𝗔🇮🇩 ]────
+├───[ 🇮🇩CREATE BY ARFAN DEVS🇮🇩 ]────
 `
 let btn = [{
     quickReplyButton: {
@@ -485,7 +485,7 @@ let btn = [{
       
  }]
 fatihgans = fs.readFileSync('./lib/assets/logo.jpg'), 
-kurr.send5ButImg(m.chat, Anu, ` 𝗕𝗢𝗧 𝗛𝗢𝗦𝗧𝗜𝗡𝗚 𝗬𝗢𝗦𝗡𝗘𝗦𝗜𝗔 `, fatihgans, btn)
+kurr.send5ButImg(m.chat, Anu, ` 𝗕𝗢𝗧 ARFAN DEVS `, fatihgans, btn)
                                           break
                                            case 'linkgroup': case 'linkgc': {
                 if (!m.isGroup) throw  m.reply(`Khusus Group`)
